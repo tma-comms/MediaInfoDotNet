@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<package >
+<package>
   <metadata>
     <id>$id$</id>
     <version>$version$</version>
@@ -9,9 +9,10 @@
     <projectUrl>https://github.com/cschlote/MediaInfoDotNet</projectUrl>
     <iconUrl>http://mediainfo.sourceforge.net/_/Image/Default/Logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <summary>$description$</summary>
-    <description>MediaInfo.NET provides a fast, easy-to-use .NET wrapper for MediaInfo.dll. 
- It abstracts the calls to the underlaying native DLL and provides strongly typed fields for each kind of media stream within a file.
+    <summary>$description$ **TMAC Version</summary>
+    <description>
+      MediaInfo.NET provides a fast, easy-to-use .NET wrapper for MediaInfo.dll.
+      It abstracts the calls to the underlaying native DLL and provides strongly typed fields for each kind of media stream within a file.
     </description>
     <releaseNotes>
       - Upstream http://git.vahanus.net/?p=csc/MediaInfoDotNet.git;a=summary
@@ -27,6 +28,6 @@
   </metadata>
   <files>
     <file src="tools\install.ps1" target="tools" />
-    <file src="lib\**" target="lib" />
+    
   </files>
 </package>
